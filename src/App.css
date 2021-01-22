@@ -2,9 +2,9 @@
 :root {
   --sidebar-flex: 1.5;
   --condiv-flex: 6;
-  --fontsize-p: 1.2rem;
+  --fontsize-p: 1.1rem;
   --fontsize-nav: 1.6rem;
-  --typing-font: 3.6rem;
+  --typing-font: 2.6rem;
 }
 * {
   margin: 0;
@@ -42,12 +42,13 @@ nav {
 }
 .profilepic {
   border-radius: 50%;
-  width: 500px;
-  margin: 30px;
+  width: 25%;
+  margin: 60px;
 }
 .typingeffect {
   font-size: var(--typing-font);
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  margin: 0 auto;
 }
 
 nav ul {
@@ -80,10 +81,10 @@ p {
   margin: 10px;
 }
 .social {
-  position: absolute;
+  position: relative;
   margin-top: 20px;
   display: flex;
-  bottom: 60px;
+  bottom: 20px;
 }
 .social i {
   padding-right: 40px;
@@ -147,5 +148,11 @@ p {
   }
   .social i {
     padding-right: 0px;
+  }
+
+  .profilepic {
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
   }
 }
