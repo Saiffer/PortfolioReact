@@ -4,7 +4,7 @@
   --condiv-flex: 6;
   --fontsize-p: 1.1rem;
   --fontsize-nav: 1.6rem;
-  --typing-font: 2.6rem;
+  --typing-font: 1.6rem;
 }
 * {
   margin: 0;
@@ -43,7 +43,7 @@ nav {
 .profilepic {
   border-radius: 50%;
   width: 25%;
-  margin: 60px;
+  margin: 100px;
 }
 .typingeffect {
   font-size: var(--typing-font);
@@ -82,9 +82,9 @@ p {
 }
 .social {
   position: relative;
-  margin-top: 20px;
+  margin-top: 40px;
   display: flex;
-  bottom: 20px;
+  bottom: 15px;
 }
 .social i {
   padding-right: 40px;
