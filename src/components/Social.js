@@ -18,6 +18,13 @@ class Social extends Component {
         >
           <i class='fab fa-linkedin-in'>Resume</i>
         </a>
+      <a
+          href='https://davidwebdev.home.blog/'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <i class='fas fa-blog'>Blog</i>
+        </a>
       </div>
     )
   }
