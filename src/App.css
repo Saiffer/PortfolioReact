@@ -4,7 +4,7 @@
   --condiv-flex: 6;
   --fontsize-p: 1.1rem;
   --fontsize-nav: 1.6rem;
-  --typing-font: 1.6rem;
+  --typing-font: 2.6rem;
 }
 * {
   margin: 0;
@@ -43,11 +43,11 @@ nav {
 .profilepic {
   border-radius: 50%;
   width: 25%;
-  margin: 100px;
+  margin: 60px;
 }
 .typingeffect {
   font-size: var(--typing-font);
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   margin: 0 auto;
 }
 
@@ -82,9 +82,9 @@ p {
 }
 .social {
   position: relative;
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
-  bottom: 15px;
+  bottom: 20px;
 }
 .social i {
   padding-right: 40px;
@@ -143,16 +143,25 @@ p {
     left: 0;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    bottom: 30px;
+    top: 70px;
+    margin: 0 auto;
+  }
+  .social a {
+    margin-top: 20px;
   }
   .social i {
     padding-right: 0px;
+  }
+  .linkIcon {
+    display: block;
   }
 
   .profilepic {
     width: 60%;
     height: 60%;
     margin: 0 auto;
+    margin-top: 50px;
   }
 }
