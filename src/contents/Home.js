@@ -5,7 +5,7 @@ import profilepic from "../img/me.jpg";
 import Social from "../components/Social";
 import ProjectCard from "../components/ProjectCard";
 
-const one = "\\static\\media\\one.e7837086.JPG";
+const one = "\\one.JPG";
 const two = "\\two.JPG";
 class Home extends Component {
   render() {
@@ -19,8 +19,16 @@ class Home extends Component {
         />
         <img src={profilepic} className='profilepic' alt='myPhoto'></img>
         <Social />
-        <ProjectCard media={one} />
-        <ProjectCard media={two} />
+        <ProjectCard
+          media={one}
+          projectName='Netflix Clone'
+          projectLink='https://netflix-clone-david.netlify.app/'
+        />
+        <ProjectCard
+          media={two}
+          projectName='Book Application'
+          projectLink='https://book-app-david.netlify.app/'
+        />
       </div>
     );
   }
