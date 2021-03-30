@@ -1,5 +1,4 @@
 import React from "react";
-import { one } from "../img/one.JPG";
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
