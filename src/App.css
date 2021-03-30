@@ -82,7 +82,7 @@ p {
 }
 .social {
   position: relative;
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   bottom: 20px;
 }
@@ -120,6 +120,7 @@ p {
   }
   .App {
     flex-direction: column;
+    min-width: fit-content;
   }
   .sidebar {
     padding: 30px;
@@ -145,7 +146,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    top: 70px;
+    top: 30px;
     margin: 0 auto;
   }
   .social a {

@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class Social extends Component {
-  render () {
+  render() {
     return (
       <div class='social'>
         <a
@@ -9,25 +9,25 @@ class Social extends Component {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <i class='fab fa-github'>Projects</i>
+          <i class='linkIcon'>Projects</i>
         </a>
         <a
           href='https://www.linkedin.com/in/david-aznaurov-19527b139/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <i class='fab fa-linkedin-in'>Resume</i>
+          <i class='linkIcon'>Resume</i>
         </a>
-      <a
+        <a
           href='https://davidwebdev.home.blog/'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <i class='fas fa-blog'>Blog</i>
+          <i class='linkIcon'>Blog</i>
         </a>
       </div>
-    )
+    );
   }
 }
 
-export default Social
+export default Social;
