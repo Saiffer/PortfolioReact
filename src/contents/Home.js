@@ -7,6 +7,8 @@ import ProjectCard from "../components/ProjectCard";
 
 const one = "\\one.JPG";
 const two = "\\two.JPG";
+const three = "\\three.PNG";
+const four = "\\four.PNG";
 class Home extends Component {
   render() {
     return (
