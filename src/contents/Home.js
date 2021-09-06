@@ -29,6 +29,17 @@ class Home extends Component {
           projectName='Book Application'
           projectLink='https://book-app-david.netlify.app/'
         />
+        <ProjectCard
+          media={three}
+          projectName='Hotel Rooms'
+          projectLink='https://hotel-reserve.netlify.app/'
+        />
+        <ProjectCard
+          media={four}
+          projectName='Typescript TaskList'
+          projectLink='https://gifted-einstein-d10717.netlify.app/'
+        />
+  
       </div>
     );
   }
